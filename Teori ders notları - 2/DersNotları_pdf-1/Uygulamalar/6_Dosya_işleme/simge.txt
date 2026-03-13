@@ -1,0 +1,10 @@
+10 Mehmet 1250.00
+20 Burak 100.50
+30 Seyfi 0.00
+40 Celal -250.45
+50 Mehmet_Salih 1250.00
+61230 Burakcan 150.50
+7050 Seyfullaf 0.00
+8000 Cemil -1250.45
+
+
