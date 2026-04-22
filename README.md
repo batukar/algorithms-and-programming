@@ -14,6 +14,7 @@ Depoda şu dönemlere ait içerikler bulunmaktadır:
 - **2024-2025 Güz (24-25 Fall)**
 - **2024-2025 Bahar (24-25 Spring)**
 - **2025-2026 Güz (25-26 Fall)**
+- **2025-2026 Bahar (25-26 Spring)**
 
 Her klasör, o döneme ait haftalık uygulamaları, algoritma örneklerini ve varsa ödev çözümlerini içerir.
 
