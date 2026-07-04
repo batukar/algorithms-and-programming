@@ -29,9 +29,6 @@ Bu depo, **Algoritma** dersi kapsamında yapılan tüm uygulama örneklerini iç
 | 18 | `18-queue` | Kuyruk (queue) yapıları |
 | 19 | `19-projects` | Ödev, vize/final soruları ve karma projeler 
 
-Her konu klasörünün altındaki **`theory-examples/`** alt klasöründe, teori dersinde
-işlenen kitap örnekleri (`theory1_...`, `theory2_...` önekli) bulunur.
-
 ---
 
 ## 💻 Kullanılan Dil
