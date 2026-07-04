@@ -47,12 +47,6 @@ işlenen kitap örnekleri (`theory1_...`, `theory2_...` önekli) bulunur.
 
 ---
 
-## 🗂️ Sınıflandırma Kuralı
-
-Bir örnek birden fazla konuyu içeriyorsa, **daha ileri konuya** ait sayılır.
-Örneğin: pointer + struct kullanan bir dosya → `08-pointers` altına gider
-(pointer, struct'tan sonra gelen bir konudur).
-
 ---
 
 ## 💻 Kullanılan Dil
