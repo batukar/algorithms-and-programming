@@ -27,25 +27,10 @@ Bu depo, **Algoritma** dersi kapsamında yapılan tüm uygulama örneklerini iç
 | 16 | `16-linked-lists` | Bağlı listeler |
 | 17 | `17-stack` | Yığın (stack) yapıları |
 | 18 | `18-queue` | Kuyruk (queue) yapıları |
-| 19 | `19-projects` | Ödev, vize/final soruları ve karma projeler |
-
----
-
-## 📝 Dosya Adlandırma
-
-Her dosya, kaynağını gösteren bir önek taşır:
-
-- `23f_...` → 2023-2024 Güz
-- `23s_...` → 2023-2024 Bahar
-- `24f_...` → 2024-2025 Güz
-- `24s_...` → 2024-2025 Bahar
-- `25f_...` → 2025-2026 Güz
-- `25s_...` → 2025-2026 Bahar
+| 19 | `19-projects` | Ödev, vize/final soruları ve karma projeler 
 
 Her konu klasörünün altındaki **`theory-examples/`** alt klasöründe, teori dersinde
 işlenen kitap örnekleri (`theory1_...`, `theory2_...` önekli) bulunur.
-
----
 
 ---
 
