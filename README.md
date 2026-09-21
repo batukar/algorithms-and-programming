@@ -15,10 +15,10 @@ Bu depo, **Algoritma** dersi kapsamında yapılan tüm uygulama örneklerini iç
 | 04 | `04-loops` | for, while, do-while döngüleri |
 | 05 | `05-arrays` | Tek/çok boyutlu diziler |
 | 06 | `06-strings` | Karakter ve string işlemleri |
-| 07 | `07-sorting` | Sıralama algoritmaları |
-| 08 | `08-pointers` | Pointer temelleri ve aritmetiği |
-| 09 | `09-dynamic-memory` | malloc, calloc, realloc, free |
-| 10 | `10-recursion` | Fonksiyonlar ve özyineleme |
+| 07 | `07-functions-and-recursion` | Fonksiyonlar, static/auto değişkenler ve özyineleme |
+| 08 | `08-sorting` | Sıralama algoritmaları |
+| 09 | `09-pointers` | Pointer temelleri ve aritmetiği |
+| 10 | `10-dynamic-memory` | malloc, calloc, realloc, free |
 | 11 | `11-structs` | struct veri yapıları |
 | 12 | `12-unions` | union yapıları |
 | 13 | `13-enums` | enum sabitleri |
@@ -27,7 +27,7 @@ Bu depo, **Algoritma** dersi kapsamında yapılan tüm uygulama örneklerini iç
 | 16 | `16-linked-lists` | Bağlı listeler |
 | 17 | `17-stack` | Yığın (stack) yapıları |
 | 18 | `18-queue` | Kuyruk (queue) yapıları |
-| 19 | `19-projects` | Ödev, vize/final soruları ve karma projeler 
+| 19 | `19-projects` | Ödev, vize/final soruları ve karma projeler |
 
 ---
 
