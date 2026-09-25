@@ -1,0 +1,11 @@
+output/
+*.dSYM/
+.DS_Store
+.vscode/
+.claude/
+19-projects/
+*.xlsx
+*.xls
+*.csv
+*.pdf
+*.docx
