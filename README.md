@@ -27,7 +27,23 @@ Bu depo, **Algoritma** dersi kapsamında yapılan tüm uygulama örneklerini iç
 | 16 | `16-linked-lists` | Bağlı listeler |
 | 17 | `17-stack` | Yığın (stack) yapıları |
 | 18 | `18-queue` | Kuyruk (queue) yapıları |
-| 19 | `19-projects` | Ödev, vize/final soruları ve karma projeler |
+
+---
+
+## 🗓️ Dönem Branch'leri
+
+Her dönemde derste yazılan örnekler, o döneme ait ayrı bir branch'te haftalık klasörler halinde tutulur.
+Bu branch'ler `main`'den bağımsızdır ve birleştirilmez.
+
+| Dönem | Branch |
+|---|---|
+| 2023-24 Güz | [`23-24-fall`](../../tree/23-24-fall) |
+| 2023-24 Bahar | [`23-24-spring`](../../tree/23-24-spring) |
+| 2024-25 Güz | [`24-25-fall`](../../tree/24-25-fall) |
+| 2024-25 Bahar | [`24-25-spring`](../../tree/24-25-spring) |
+| 2025-26 Güz | [`25-26-fall`](../../tree/25-26-fall) |
+| 2025-26 Bahar | [`25-26-spring`](../../tree/25-26-spring) |
+| 2026-27 Güz | [`26-27-fall`](../../tree/26-27-fall) |
 
 ---
 
