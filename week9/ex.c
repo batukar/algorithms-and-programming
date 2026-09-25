@@ -1,0 +1,129 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Node{
+    int data;
+    struct Node* next;
+};
+
+int menu();
+void showLinkedList(struct Node* head);
+struct Node* newNode(int newData);
+void inputHead(struct Node** head, int newData);
+void inputTail(struct Node** head, int newData);
+void inputBetween(struct Node** head, int newData);
+
+int main(){
+    struct Node* head = NULL;
+    int val = 0;
+
+    for(;;){
+        int m = menu();
+
+        switch (m){
+            case 1:
+                printf("Eklenecek veri girin: \n");
+                scanf("%d", &val);
+                inputHead(&head, val);
+                break;
+            case 2:
+                printf("Eklenecek veri girin: \n");
+                scanf("%d", &val);
+                inputTail(&head, val);
+                break;
+            case 3:
+                printf("Eklenecek veri girin: \n");
+                scanf("%d", &val);
+                inputBetween(&head, val);
+                break;
+            case 4:
+                showLinkedList(head);
+                break;
+            case 5:
+                exit(0);
+            default:
+                printf("HATA: Yanlis secim yapildi!\n");
+                break;
+        }
+    }
+
+}
+
+int menu(){
+    int choice;
+    printf("|~~~~~|~ Menu ~|~~~~~|\n");
+    printf("1. Basa Ekle\n");
+    printf("2. Sona Ekle\n");
+    printf("3. Araya Ekle\n");
+    printf("4. Listeyi Goster\n");
+    printf("5. Cikis\n");
+    printf("Secim yapin: \n");
+    scanf("%d", &choice);
+    
+    return choice;
+}
+
+void showLinkedList(struct Node* head){
+    while(head){
+        printf("%d -> ", head->data);
+        head = head->next;
+    }
+    printf("NULL\n");
+}
+
+struct Node* newNode(int newData){
+    struct Node* new = (struct Node*)malloc(sizeof(struct Node));
+    new->data = newData;
+    new->next = NULL;
+
+    return new;
+}
+
+void inputHead(struct Node** head, int newData){
+    struct Node* n = newNode(newData);
+    n->next = *head;
+    *head = n;
+}
+
+void inputTail(struct Node** head, int newData){
+    struct Node* n = newNode(newData);
+
+    if(*head == NULL){
+        *head = n;
+        return;
+    }
+
+    struct Node* temp = *head;
+    while(temp->next != NULL){
+        temp = temp->next;
+    }
+    temp->next = n;
+}
+
+void inputBetween(struct Node** head, int newData){
+    struct Node* n = newNode(newData);
+
+    int index = 0;
+    printf("Hangi indeksten sonra ekleme yapmak istiyorsunuz?\n");
+    scanf("%d", &index);
+
+    if(index < 0){
+        inputHead(head, newData);
+        return;
+    }
+
+    int count = 0;
+    struct Node* temp = *head;
+
+    while(temp != NULL){
+        if(count == index){
+            n->next = temp->next;
+            temp->next = n;
+            return;
+        }
+        count++;
+        temp = temp->next;
+    }
+
+    inputTail(head, newData);
+}
