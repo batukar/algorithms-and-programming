@@ -1,0 +1,3 @@
+output/
+*.dSYM/
+.DS_Store
