@@ -9,7 +9,7 @@ int main() {
 
     ortalama = (float) (not1 + not2) / 2;
 
-    printf("Ogrenci numarasi: %d\n", numara);
+    printf("Ogrenci Numarasi: %d\n", numara);
     printf("Ortalama: %.2f\n", ortalama);
 
     return 0;
